@@ -4,7 +4,8 @@
   "description": "## Raul England Pelenio ## 101367043",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
