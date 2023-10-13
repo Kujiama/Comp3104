@@ -7,13 +7,17 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kujiama/Comp3104.git"
   },
-  "keywords": ["devops"],
+  "keywords": [
+    "devops"
+  ],
   "author": "Raul England Pelenio - 101367043",
   "license": "ISC",
   "bugs": {
@@ -46,7 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
-
-
 }
